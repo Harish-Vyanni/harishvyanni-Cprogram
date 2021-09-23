@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,diff,rem,prod;
+    float quot;
+    printf("enter the first number: ");
+    scanf("%d",&a);
+    printf("enter the second number: ");
+    scanf("%d",&b);
+    sum = a+b;
+    printf("\n the sum of the 2 numbers is %d ",sum);
+    diff = a-b;
+    printf("\n the different of the 2 numbers is %d ",diff);
+    rem = a%b;
+    printf("\n the reminder of the 2 numbers is %d",rem);
+    prod = a*b;
+    printf("\n the product of the 2 numbers is %d",prod);
+    quot = a/b;
+    printf("\n the quotcient of the 2 numbers is %f",quot);
+}
