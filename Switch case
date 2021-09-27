@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int response,a,b,result;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    printf("\t1 Addition");
+    printf("\n\t2 subraction");
+    printf("\n\t3 multiplication");
+    printf("\n\t4 exit");
+    scanf("%d",&response);
+    switch(response)
+{
+    case 1:
+    response=a+b;
+    printf(" the sum of two numbers is %d",response);
+    break;
+    case 2:
+    response=a-b;
+    printf("the difference of two numbers is %d",response);
+    break;
+    case 3:
+    response=a*b;
+    printf("the product of two numbers is %d",response);
+    break;
+    case 4:
+    exit(0);
+    default:
+    printf("invalid option");
+    }
+}
